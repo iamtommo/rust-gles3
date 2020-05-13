@@ -1,0 +1,12 @@
+[package]
+name = "gles3"
+version = "0.1.0"
+authors = ["tom"]
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+gl_generator = "0.14.0"
+
+[dependencies]
+gl = "0.14.0"
